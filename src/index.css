@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {
+  background: url(./images/nike_bg_02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 296px;
+}
+
+nav {
+  width: 1093px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: block;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: flex;
+}
+
+nav ul li a {
+  display: block;
+  padding: 19px 24px 21px 28px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #4d4d4d;
+  transition: .5s;
+}
+
+header nav ul li a:hover {
+  background: #c1bc45;
+  color: #f7f7f7;
+}
+
+header .title {
+  width: 1093px;
+  margin: 185px auto 0;
+}
+
+header .title h1 {
+  color: #c0bc45;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+header .title p {
+  color: #4d4d4d;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+header .title p span {
+  font-weight: 900;
+  color: #000;
+}
+
+main {
+  padding: 90px 0 130px;
+}
+
+main .product {
+  width: 1111px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .product .product_left {
+  width: 540px;
+}
+
+main .product .product_left .left_info {
+  margin-top: 21px;
+}
+
+main .product .product_left .left_info h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+main .product .product_left .left_info h3 span {
+  font-size: 25px;
+}
+
+main .product .product_left .left_info p {
+  color: #333;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+main .product .product_right {
+  width: 540px;
+}
+
+main .product .product_right .right_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 4px solid #aeaeae;
+  margin-bottom: 20px;
+  padding: 13px 6px 14px 20px;
+  transition: .5s;
+}
+
+main .product .product_right .right_box:hover {
+  border-color: #f0efb6;
+}
+
+main .product .product_right .right_box .box_info {
+  margin-left: 38px;
+}
+
+main .product .product_right .right_box .box_info h3 {
+  font-weight: 700;
+  color: #000;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+main .product .product_right .right_box .box_info p {
+  color: #919191;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer {
+  background: #eee9e9;
+  padding: 109px 0 31px;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 65px;
+  font-weight: 700;
+  color: #5a5a5a;
+  font-size: 18px;
+}
+
+footer nav ul li a{
+  transition: .5s;
+}
+
+footer nav ul li a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 4px;
+  background: #ff0000;
+  margin-top: 10px;
+  transition: .5s;
+}
+
+footer nav ul li a:hover {
+  color: #ff0000;
+}
+
+footer nav ul li a:hover::after {
+  width: 100%;
+}

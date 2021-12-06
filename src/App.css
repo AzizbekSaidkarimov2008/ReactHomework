@@ -1,0 +1,51 @@
+/* .App{
+  margin: 10px;
+  border: 2px solid #000;
+  box-shadow: 0 0 10px #000;
+  width: 50%;
+}
+
+.Books{
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  margin: auto;
+} */
+
+
+.header {
+  background: url(../public/images/nike_bg_02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 296px;
+}
+
+nav {
+  width: 1093px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .logo {
+  display: block;
+  margin-top: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  display: block;
+  padding: 19px 24px 21px 28px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #4d4d4d;
+  transition: .5s;
+}
+
+header nav ul li a:hover {
+  background: #c1bc45;
+  color: #f7f7f7;
+}
