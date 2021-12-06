@@ -7,6 +7,7 @@ import imgMainRight1 from './images/main_06.png'
 import imgMainRight2 from './images/main_09.png'
 import imgMainRight3 from './images/main_11.png'
 import imgMainRight4 from './images/main_14.png'
+import MainRight from './MainRight'
 
 // const appStyle = {
 //   display: "flex",
@@ -66,7 +67,7 @@ function App() {
                 <img src={imgMainRight1} alt="png" />
               </div>
               <div className="box_info">
-                <Main mainTitle="Кроссовки Nike Sport" p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                <MainRight mainTitle="Кроссовки Nike Sport" p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"/>
               </div>
             </div>
@@ -75,7 +76,7 @@ function App() {
                 <img src={imgMainRight2} alt="png" />
               </div>
               <div className="box_info">
-                <Main mainTitle="Кроссовки Nike Sport" p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                <MainRight mainTitle="Кроссовки Nike Sport" p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"/>
               </div>
             </div>
@@ -84,7 +85,7 @@ function App() {
                 <img src={imgMainRight3} alt="png" />
               </div>
               <div className="box_info">
-                <Main mainTitle="Кроссовки Nike Sport" p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                <MainRight mainTitle="Кроссовки Nike Sport" p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"/>
               </div>
             </div>
@@ -93,7 +94,7 @@ function App() {
                 <img src={imgMainRight4} alt="png" />
               </div>
               <div className="box_info">
-                <Main mainTitle="Кроссовки Nike Sport" p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                <MainRight mainTitle="Кроссовки Nike Sport" p="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"/>
               </div>
             </div>
@@ -120,7 +121,7 @@ function App() {
         </nav>
 
 
-<p>Developped by Saidkarimov <span className="icon">😁</span> &copy;</p>
+        <p>Developped by Saidkarimov <span className="icon">😁</span> &copy;</p>
 
       </footer>
     </>
